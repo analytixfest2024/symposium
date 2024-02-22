@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style_sympo.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body style="background-color: #d7daf6;">
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="Pictures/logo ds.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="symposium.html">EVENTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1 class = "coming1">TITLE EVENT</h1>
+            
+
+            
+    </section>
+<!--------Title-->
+<section class="allevents">
+    <div class="row1">
+        <div class="course-col1">
+            <img src = "Pictures/startathon.png" class = "event-image">
+            <h3>Startathon</h3>
+            <p> About the Event: <br>
+                •	Startathon is a technical event where participants must devise innovative solutions for a given problem statement.<br>
+                •	They will choose one problem statement out of three options provided by the organizers. <br>
+                •	Participants are required to prepare a presentation, either a PPT or a poster, outlining their problem, innovation, solution, techniques, and technologies they
+                   intend to use.<br><br>
+                Instructions :<br>
+                •	Register your team through the provided registration portal.<br>
+                •	Once registered, you will be added to a whatsapp group named “Hackathon”.<br>
+                •	Add your team name and members names in the group.<br>
+                •	On march 6, problem statements will be delivered via whatsapp group after inauguration.<br>
+                •	Work on your presentation during the designated time and be ready to present in the afternoon.<br>
+                •	Presentation time : 5 - 8 minutes.<br>
+                •	Submit your presentation before 2:15 pm.<br>
+                •	No late submission will be accepted.<br>
+                •	Judging will be based on the idea, presentation, creativity and orginality of the content.<br><br>
+                Rules :<br>
+                •	Each team must  consist of 2 or 3 members.<br>
+                •	Use of AI tool is permitted.<br>
+                •	Each team should bring their own laptop with internet access for the presentation.<br><br>
+                Requirements:<br>
+                •	Laptop with internet access for the presentation.</p>
+        </div>
+    </div>
+</section>        
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Bishop Heber College, A great Institution of higher education set in beautiful surroundings, seeks to function through mutual love and respect and with efficiency and creativity, <br> catering to the educational needs of all, especially the poor, the needy and the under-privileged, inspired by the love of our Lord Jesus Christ.</p>
+    <div class="icons">
+        <a href="http://instagram.com/heber_datascience"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:analytixfest2k24@gmail.com"> <i class="fa fa-envelope"></i> </a>
+         
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>      
+</body>
+</html>    

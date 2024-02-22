@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style_sympo.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body style="background-color:#d7daf6;">
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="Pictures/logo ds.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="symposium.html">EVENTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1 class = "coming1">TECHNICAL EVENTS</h1>
+            
+    </section>
+    
+<!--------Technical-->
+<section class="allevents">
+    <div class="row">
+        <div class="course-col">
+            <img src = "Pictures/code machine.png" class = "event-image">
+            <h3>1. Code Machine</h3>
+            <p> •	2 members per team <br>
+                •	Maximum of 2 teams per department can participate in this event.<br>
+                •	There will be 3 rounds.<br>
+                •	Questions are set at a level ranging from basic to intermediate.<br>
+                •	Internet access is not allowed.<br>
+                •	Selection will be based on the solving speed and success rate of test case.<br>
+                •	Judges decisions are final.<br>
+                •	Required Skill : C, C++, Java, Python, Data structures and algorithms.</p> 
+        </div>
+        <div class="course-col">
+            <img src = "Pictures/byte battle.png" class = "event-image">
+            <h3>2.Byte Battle</h3>
+            <p> •	2 members per team.<br>
+                •	Maximum of 2 teams per department can participate in this event.<br>
+                •	Round 1 : you have to solve 20 questions in 20 minutes.<br>
+                •	7 teams will be qualified for the second round .<br>
+                •	Instructions for the second round will be revealed on the spot.<br>
+                •	Internet access is not allowed.<br>
+                •	Any irregularity will result in immediate disqualification of your team.<br>
+                •	Required Skill : Python, web technology.</p>
+        </div>
+   
+        <div class="course-col">
+            <img src = "Pictures/codecode.png" class = "event-image">
+            <h3>3. Code Decode</h3>
+            <p> •	2 to 5 members per team(minimum 2 required*).<br>
+                •	Maximum of 2 teams per department can participate in this event.<br>
+                •	Participants are allowed only from computer science background.<br>
+                •	There will be 3 rounds.<br>
+                •	Questions are set at a level ranging from basic to intermediate.<br>
+                •	Your team will be disqualified, if any one of you use smart devices.<br>
+                •	Required Skill : Python, SQL, Data Science Basics.</p> 
+        </div>
+    </div>
+    </div>
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Bishop Heber College, A great Institution of higher education set in beautiful surroundings, seeks to function through mutual love and respect and with efficiency and creativity, <br> catering to the educational needs of all, especially the poor, the needy and the under-privileged, inspired by the love of our Lord Jesus Christ.</p>
+    <div class="icons">
+        <a href="http://instagram.com/heber_datascience"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:analytixfest2k24@gmail.com"> <i class="fa fa-envelope"></i> </a>
+         
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+</body>
+</html>    

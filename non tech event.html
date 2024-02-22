@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style_sympo.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body style="background-color: #d7daf6;">
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="Pictures/logo ds.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="symposium.html">EVENTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1 class = "coming1">NON TECHNICAL EVENTS</h1>
+            
+    </section>
+    
+   
+<!--Non-Tech-->
+<section class="allevents">
+    <div class="row">
+        <div class="course-col2">
+            <img src = "Pictures/treasure hunt.png" class = "event-image">
+            <h3>1.Treasure Hunt</h3>
+            <p>•	Maximum 3 members per Team.<br>
+                •	Maximum of 2 teams per department can participate in this event.<br>
+                •	You have to find the treasure(one Piece) within the given time.<br>
+                •	Participants should use only one phone during the entire event.<br>
+                •	Participants should have any QR Code scanner application.<br>
+                •	The reason for scanning the QR code will be revealed on the spot.<br>
+                •	If the participants or team use the open sources to find the answers during the event that team will be disqualified.</p>
+                
+        </div>
+        <div class = "row"></div>
+        <div class="course-col2">
+            <img src = "Pictures/extraction.png" class = "event-image">
+            <h3>2. Extraction</h3>
+            <p>.•	2 members per team.<br>
+                •	Maximum of 2 teams per department can participate in this event.<br>
+                •	There will be 2 rounds, those who are getting high points in the first round will be qualified for the next round<br>
+                •	In the First round, A picture will be displayed on the screen , the participants should analyse the picture, Connect the picture and find the answer within 15 seconds.<br>
+                •	Second round is based on buzzer system. Buzzer application will be revealed on spot.<br>
+                •	Mobile Phones are allowed with good internet speed.</p>
+
+        </div>
+        <div class = "row"></div>
+        <div class="course-col2">
+            <img src = "Pictures/mindsnap.png" class = "event-image">
+            <h3>3.Mindsnap Data Puzzle</h3>
+            <p>•	2 members per team.<br>
+                •	Maximum of 2 teams per department can participate in this event.<br>
+                •	In the first round you have to observe the images for 20 seconds and you'll be given 10 seconds to recall.<br>
+                •	points will be given for every correctly recalled items.<br>
+                •	Top 7 teams will be qualified for round 2.<br>
+                •	In the second round, you have to observe the images again and you have to recall it in order.<br>
+                •	points will be given for every correctly recalled items.<br>
+                •	Selected teams will be qualified for round 3.<br>
+                •	In the third round, a video will be played and questions will be asked relevant to that video. You have buzz first or raise your hand to answer.<br>
+                •	Incorrect answer gives opposing team a chance.<br>
+                •	Team with Highest total points will be declared as the winner.</p>
+        </div>
+    </div>
+</section>
+   
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Bishop Heber College, A great Institution of higher education set in beautiful surroundings, seeks to function through mutual love and respect and with efficiency and creativity, <br> catering to the educational needs of all, especially the poor, the needy and the under-privileged, inspired by the love of our Lord Jesus Christ.</p>
+    <div class="icons">
+        <a href="http://instagram.com/heber_datascience"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:analytixfest2k24@gmail.com"> <i class="fa fa-envelope"></i> </a>
+    </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>      
+</body>
+</html>    
